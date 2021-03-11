@@ -1,5 +1,11 @@
 ## Sistema de lembrete Laravel
 
+#### Resumo
+
+- Sistema de lembrete faz cadastro, alteração, exclusão, listagem
+- Sistema faz listagem na tela de 5 em 5
+- Sistema roda um javascript que a cada minuto chama a função para mandar email
+
 ### Instalação no LINUX
 
 - baixar projeto git clone https://github.com/tthiagopereira/lembrete.git
@@ -7,6 +13,15 @@
 - composer install
 - cp .env-email .env
 -  php artisan key:generate
+
+### Configurando arquivo EnviarLembreteController
+
+#### Configurando email
+
+- Caminho do arquivo pasta
+- app/Http/Controller/EnviarLembreteController
+- na linha 31 do arquivo
+- $m->from('EX: tthiagopereira7@gmail.com', 'EX: THIAGO PEREIRA DOS SANTOS');
 
 ### Configurando arquivo .env
 #### Configurando email
