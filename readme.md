@@ -17,10 +17,10 @@
 ### Configurando arquivo EnviarLembreteController
 
 #### Configurando email
-
-- Caminho do arquivo pasta
+- Realizar a alteração do seguinte arquivo
+- Caminho do arquivo
 - app/Http/Controller/EnviarLembreteController
-- na linha 31 do arquivo
+- na linha 31 do arquivo fazer a alteração do email que irar ficar enviando os e-mail segue o exemplo a baixo
 - $m->from('EX: tthiagopereira7@gmail.com', 'EX: THIAGO PEREIRA DOS SANTOS');
 
 ### Configurando arquivo .env
